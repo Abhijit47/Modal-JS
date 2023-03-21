@@ -28,5 +28,6 @@ for (let i = 0; i < allBtns.length; i++) {
     btn.addEventListener('click', showModal);
   });
   closeBtn.addEventListener('click', closeModal);
+  overlay.addEventListener('click', closeModal);
 }
 
